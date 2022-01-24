@@ -3,8 +3,10 @@ import './App.css';
 
 import AppHeader from './components/common/AppHeader';
 import { Layout } from 'antd';
+import AppHome from './views/home';
 
-const { Header } = Layout;
+
+const { Header, Content } = Layout;
 
 function App() {
   return (
@@ -13,6 +15,9 @@ function App() {
         <Header >
           <AppHeader />
         </Header>
+        <Content>
+          <AppHome />
+        </Content>
       </Layout>
     </div>
   );
