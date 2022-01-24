@@ -1,11 +1,19 @@
-import { Button } from 'antd';
 import 'antd/dist/antd.css';
 import './App.css';
+
+import AppHeader from './components/common/AppHeader';
+import { Layout } from 'antd';
+
+const { Header } = Layout;
 
 function App() {
   return (
     <div className="App">
-      <Button type="primary">Primary Button</Button>
+      <Layout className="mainLayout">
+        <Header >
+          <AppHeader />
+        </Header>
+      </Layout>
     </div>
   );
 }
