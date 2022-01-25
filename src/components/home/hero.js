@@ -25,7 +25,6 @@ const AppHero = () => {
         <div className='heroBlock'>
             <Carousel>
                 {items.map(item => {
-
                     return (
                         <div key={`${item.key}`} className='container-fluid'>
                             <div className='content'>
