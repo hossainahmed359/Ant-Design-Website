@@ -29,3 +29,23 @@ function App() {
 }
 
 export default App;
+
+
+/* 
+
+Website with ant design:
+
+Project link: https://ant-design-website-template.netlify.app/
+
+Description:
+**** Usage of Ant Design components ***
+-  <App.js/>       ||   Layout, Header, Content, Footer.
+-  <AppHeader.js/> ||   Anchor, Link and Button.	
+-  <AppAbout/>     ||   Row, Col. >> Responsiveness
+-  <AppFeature/>   ||   Row, Col, Card, Meta. >> Responsiveness
+-  <AppFaq/>       ||   Collapse, Panel, Button.
+-  <AppPricing/>   ||   List, List.Item, Card.
+-  <AppContact/>   ||   Form, Input Field.
+-  <AppFooter/>    ||   BackTop
+
+*/
