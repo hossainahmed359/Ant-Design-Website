@@ -1,5 +1,5 @@
 import React from 'react';
-import { List, Card } from 'antd';
+import { List, Card, Button } from 'antd';
 
 const data = [
   {
@@ -62,12 +62,13 @@ const AppPricing = () => {
                     renderItem={item => (
                         <List.Item>
                         <Card title={item.title}>
-                            <p>{item.content[0].price}</p>
+                            <p className='large'>{item.content[0].price}</p>
                             <p>{item.content[0].space}</p>
                             <p>{item.content[0].user}</p>
                             <p>{item.content[0].support}</p>
                             <p>{item.content[0].backup}</p>
                             <p>{item.content[0].access}</p>
+                            <Button type='primary' size='large'><i className='fab fa-telegram-plane'></i> Get Started</Button>
                         </Card>
                     </List.Item>
                     )}
