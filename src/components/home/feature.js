@@ -54,7 +54,7 @@ const AppFeature = () => {
                 </div>
             <Row gutter={[16, 16]}>
                 {items.map((item) => 
-                    <Col key={item.key} span={8} >
+                    <Col key={item.key} xs={{span: 24}} sm={{span: 12}} md={{span: 8}} >
                         <Card
                         hoverable
                         cover={<img alt={item.title} src={item.image} />}
