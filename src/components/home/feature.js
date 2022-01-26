@@ -46,7 +46,7 @@ const items = [
 
 const AppFeature = () => {
     return (
-        <div className='block featureBlock bgGray'>
+        <div id='feature' className='block featureBlock bgGray'>
             <div className='container-fluid'>
                 <div className='titleHolder'>
                     <h2>Key Features and Benefits</h2>

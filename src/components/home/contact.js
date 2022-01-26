@@ -9,7 +9,7 @@ const AppContact = () => {
       };
 
     return (
-        <div className='block contactBlock'>
+        <div id='contact' className='block contactBlock'>
             <div className='container-fluid'>
                 <div className='titleHolder'>
                     <h2>Get in Touch</h2>

@@ -46,7 +46,7 @@ const data = [
 
 const AppPricing = () => {
     return (
-        <div className='block pricingBlock bgGray' >
+        <div id='pricing' className='block pricingBlock bgGray' >
             <div className='container-fluid'>
                 <List
                      grid={{
